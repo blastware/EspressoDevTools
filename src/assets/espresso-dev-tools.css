@@ -1,0 +1,77 @@
+/* ADMIN TOOLBAR */
+#wp-admin-bar-espresso-toolbar .menupop > .ab-item {
+    padding-right: 3em !important;
+}
+
+#wp-admin-bar-espresso-toolbar .menupop > .ab-item::before {
+    top: 4px !important;
+}
+
+#wpadminbar #wp-admin-bar-ee-dev-Toolbar-EspressoDevTools {
+    border-bottom: 1px solid rgba(240, 245, 250, .2);
+    border-top: 1px solid rgba(240, 245, 250, .2);
+    margin: 24px 0 2px;
+    padding: 0 0 6px;
+    z-index: 99998 !important;
+}
+
+#wp-admin-bar-ee-dev-Toolbar-EspressoDevTools .ee-toolbar-icon::before {
+    content: "\f308";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-SampleDataGenerator .ee-toolbar-icon::before {
+    content: "\f510";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-SampleDataGenerator-AddSampleEventData .ee-toolbar-icon::before {
+    content: "\f227";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-SampleDataGenerator-AddSampleCartData .ee-toolbar-icon::before {
+    content: "\f174";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-DatabaseRollBackPoint .ee-toolbar-icon::before {
+    content: "\f516";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-DatabaseRollBackPoint-SetRollBackPoint .ee-toolbar-icon::before {
+    content: "\f537";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-DatabaseRollBackPoint-RestoreRollBackPoint .ee-toolbar-icon::before {
+    content: "\f516";
+}
+
+/* BENCHMARKING */
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking .ee-toolbar-icon::before {
+    content: "\f226";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Bootstrapping .ee-toolbar-icon::before {
+    content: "\f111";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Initialization .ee-toolbar-icon::before {
+    content: "\f154";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Application .ee-toolbar-icon::before {
+    content: "\f459";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Full-Request .ee-toolbar-icon::before {
+    content: "\f155";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Log .ee-toolbar-icon::before {
+    content: "\f464";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Delete-Log .ee-toolbar-icon::before {
+    content: "\f182";
+}
+
+#wp-admin-bar-ee-dev-Toolbar-Benchmarking-Off .ee-toolbar-icon::before {
+    content: "\f153";
+}
