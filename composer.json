@@ -1,0 +1,31 @@
+{
+  "name": "Blastware/espresso-dev-tools",
+  "description": "A set of WordPress Admin Bar extensions that aid in the troubleshooting and development of Event Espresso based sites and applications.",
+  "type": "wordpress-plugin",
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "Brent Christensen",
+      "email": "brent@eventespresso.com",
+      "homepage": "https://github.com/Blastware/EspressoDevTools"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/Blastware/EspressoDevTools/issues"
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blastware\\EspressoDevTools\\": "src/"
+    }
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-master"
+  },
+  "require": {
+  }
+}
+
